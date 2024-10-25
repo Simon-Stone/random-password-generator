@@ -38,16 +38,16 @@ class PasswordGenerator:
 
     def __init__(
         self,
-        minlen: int = 6,
-        maxlen: int = 16,
-        minuchars: int = 1,
-        minlchars: int = 1,
-        minnumbers: int = 1,
-        minschars: int = 1,
-        excludeuchars: str = None,
-        excludelchars: str = None,
-        excludenumbers: str = None,
-        excludeschars: str = None,
+        minlen=6,
+        maxlen=16,
+        minuchars=1,
+        minlchars=1,
+        minnumbers=1,
+        minschars=1,
+        excludeuchars=None,
+        excludelchars=None,
+        excludenumbers=None,
+        excludeschars=None,
     ):
         self.minlen = minlen
         self.maxlen = maxlen
