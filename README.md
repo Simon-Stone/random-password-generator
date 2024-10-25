@@ -62,6 +62,16 @@ example:
   pwo.excludeschars = "!$%^" # (Optional)
 ```
 
+We can also set the password specification when we instantiate the generator:
+
+``` python
+  pwo = PasswordGenerator(
+    excludeuchars = "ABCDEFTUVWXY",
+    excludelchars = "abcdefghijkl",
+    excludenumbers = "012345",
+    excludeschars = "!$%^")
+```
+
 
 ## Generate a custom password
 ``` python
